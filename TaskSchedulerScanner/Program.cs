@@ -19,6 +19,8 @@ namespace TaskSchedulerScanner // Note: actual namespace depends on the project 
             {
                 instance.EnumAllActions();
             }
+
+            Console.ReadKey();
         }
         
         public void EnumAllTasks()
