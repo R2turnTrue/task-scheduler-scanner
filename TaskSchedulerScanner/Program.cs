@@ -20,6 +20,7 @@ namespace TaskSchedulerScanner // Note: actual namespace depends on the project 
                 instance.EnumAllActions();
             }
 
+            Console.WriteLine("----- Press any key to exit!");
             Console.ReadKey();
         }
         
